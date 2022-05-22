@@ -40,9 +40,8 @@ while (role[0].gethp() > 0) and (role[1].gethp() > 0):
             role[1].subhp(50)
             print(role[1].getName(),"的血量減少50，還剩:",role[1].gethp())
             role[0].submp(50)
-            #cu =  random.randint(1,20)
-            #if role[1].gethp() < 50 and role[1].gethp() > 0 and cu % 10 ==0 and (Dancer1 != None or Dancer2 != None):
-            if role[1].gethp() < 50 and role[1].gethp() > 0 and (Dancer1 != None or Dancer2 != None):
+            cu =  random.randint(1,20)
+            if role[1].gethp() < 50 and role[1].gethp() > 0 and cu % 10 ==0 and (Dancer1 != None or Dancer2 != None):
                 role[1].cure()
                 role[1].addhp(30)
         else:
@@ -50,9 +49,8 @@ while (role[0].gethp() > 0) and (role[1].gethp() > 0):
             role[1].subhp(10)  
             print(role[1].getName(),"的血量減少10，還剩:",role[1].gethp())
             role[0].addmp(10)
-            #cu =  random.randint(1,20)
-            #if role[1].gethp() < 50 and role[1].gethp() > 0 and cu % 10 ==0 and (Dancer1 != None or Dancer2 != None):
-            if role[1].gethp() < 50 and role[1].gethp() > 0 and (Dancer1 != None or Dancer2 != None):
+            cu =  random.randint(1,20)
+            if role[1].gethp() < 50 and role[1].gethp() > 0 and cu % 10 ==0 and (Dancer1 != None or Dancer2 != None):
                 role[1].cure()
                 role[1].addhp(30)
     else:
@@ -62,9 +60,8 @@ while (role[0].gethp() > 0) and (role[1].gethp() > 0):
             role[0].subhp(50)
             print(role[0].getName(),"的血量減少50，還剩:",role[0].gethp())
             role[1].submp(50)
-            #cu =  random.randint(1,20)
-            #if role[0].gethp() < 50 and  role[0].gethp() > 0 and cu % 10 ==0 and (Dancer1 != None or Dancer2 != None):
-            if role[0].gethp() < 50 and  role[0].gethp() > 0 and (Dancer1 != None or Dancer2 != None):
+            cu =  random.randint(1,20)
+            if role[0].gethp() < 50 and  role[0].gethp() > 0 and cu % 10 ==0 and (Dancer1 != None or Dancer2 != None):
                 role[0].cure()
                 role[0].addhp(30)
         else:
@@ -72,9 +69,8 @@ while (role[0].gethp() > 0) and (role[1].gethp() > 0):
             role[0].subhp(10)
             print(role[0].getName(),"的血量減少10，還剩:",role[0].gethp())
             role[1].addmp(10)
-            #cu =  random.randint(1,20)
-            #if role[0].gethp() < 50 and  role[0].gethp() > 0 and cu % 10 ==0 and (Dancer1 != None or Dancer2 != None):
-            if role[0].gethp() < 50 and  role[0].gethp() > 0 and (Dancer1 != None or Dancer2 != None):
+            cu =  random.randint(1,20)
+            if role[0].gethp() < 50 and  role[0].gethp() > 0 and cu % 10 ==0 and (Dancer1 != None or Dancer2 != None):
                 role[0].cure()
                 role[0].addhp(30)
         
