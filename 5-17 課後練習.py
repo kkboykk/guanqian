@@ -5,6 +5,14 @@ Created on Tue May 17 21:05:18 2022
 @author: AlenChang
 """
 
+"""
+HomeWork
+#甚麼時候要使用必殺技，一次扣50HP
+#甚麼時候要補血?當HP小於多少可以補或不補
+#可以用亂數來決定1~20。亂數值為10或20才使用。
+
+"""
+
 
 from WarriorRole import Warrior
 from TamerRole import Tamer
